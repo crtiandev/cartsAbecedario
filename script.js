@@ -28,9 +28,10 @@ for (let card of cards) {
     });
 }
 
-const botonFiltro = document.getElementById("btn-filtro");
-if (botonFiltro) {
-    botonFiltro.addEventListener("click", () => {
-        filtrar("todas");
+const botonesFiltro = document.querySelectorAll(".botones button");
+for (let boton of botonesFiltro) {
+    boton.addEventListener("click", () => {
+        const tipoFiltro = boton.dataset.filtro;
+        filtrar(tipoFiltro);
     });
 }
