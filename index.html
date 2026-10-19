@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ABC Challenge</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="/style.css">
     <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQkld-wDfMxZWVW39jLFjioOd4c1kREj1nqf7nZ2BYfQ&s=10" type="image/x-icon">
     
 </head>
+
+<header>
+    <nav class="nav-var">
+        <h1>Aprende ABC</h1>
+        <p>Letras vistas: <span id="contador">0</span> / 27</p>
+        <button id="btn-filtro">Abecedario completo</button>
+
+    </nav>
+</header>
+
 <body>
     <section class="galeria">
 
@@ -225,6 +238,66 @@
         <div class="card"></div>
 
         <!-- BLOQUE 4: U - Z -->
+
+        <div class="card" data-tipo="vocal">
+            <div class="card-frente">
+                <h2>U/u</h2>
+            </div>
+            <div class="card-dorso">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz7Q0gdQS6HFXQQB24YQr7ybNHoVWBMSDs9T32gCkoGQ&s=10" alt="Uva">
+                <p>Uva</p>
+            </div>
+        </div>
+
+        <div class="card" data-tipo="consonante">
+            <div class="card-frente">
+                <h2>V/v</h2>
+            </div>
+            <div class="card-dorso">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzo65OI3Q7QQ2YJ3ZkKHnVy27SG6lSc4SKRgfo4f-Gs268YlNlcFOtac0&s=10" alt="Vaca">
+                <p>Vaca</p>
+            </div>
+        </div>
+
+        <div class="card" data-tipo="consonante">
+            <div class="card-frente">
+                <h2>W/w</h2>
+            </div>
+            <div class="card-dorso">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6ZzbbcxnSKggUBbxPxoiiyxjSaUChov0sYmlQcCoJAQ&s=10" alt="Waffle">
+                <p>Waffle</p>
+            </div>
+        </div>
+
+        <div class="card" data-tipo="consonante">
+            <div class="card-frente">
+                <h2>X/x</h2>
+            </div>
+            <div class="card-dorso">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyMteXBfpkZIMHL22Q2Rd696dQwKrdFYhhk7bhbBU88g&s=10" alt="Xilófono">
+                <p>Xilófono</p>
+            </div>
+        </div>
+
+        <div class="card" data-tipo="consonante">
+            <div class="card-frente">
+                <h2>Y/y</h2>
+            </div>
+            <div class="card-dorso">
+                <img src="https://img.magnific.com/vector-premium/ilustracion-vectorial-yates-aislada-sobre-fondo-blanco_990010-7993.jpg?semt=ais_hybrid&w=740&q=80" alt="Yate">
+                <p>Yate</p>
+            </div>
+        </div>
+
+        <div class="card" data-tipo="consonante">
+            <div class="card-frente">
+                <h2>Z/z</h2>
+            </div>
+            <div class="card-dorso">
+                <img src="https://img.magnific.com/vector-gratis/dibujado-mano-ilustracion-dibujos-animados-zapatos-correr_23-2150985777.jpg?semt=ais_hybrid&w=740&q=80" alt="Zapatos">
+                <p>Zapatos</p>
+            </div>
+        </div>
         <div class="card"></div>
 
     </section>
@@ -244,4 +317,5 @@
     
     <script src="script.js"></script>
 </body>
+
 </html>
