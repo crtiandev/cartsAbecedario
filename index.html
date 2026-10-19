@@ -9,17 +9,18 @@
     <link rel="stylesheet" href="/style.css">
     
 </head>
-
-<header>
-    <nav class="nav-var">
-        <h1>Aprende ABC</h1>
-        <p>Letras vistas: <span id="contador">0</span> / 27</p>
-        <button id="btn-filtro">Abecedario completo</button>
-
-    </nav>
-</header>
-
 <body>
+    <header>
+        <nav class="nav-var">
+            <h1>Aprende ABC</h1>
+            <p>Letras vistas: <span id="contador">0</span> / 27</p>
+            <div class="botones">
+                <button id="btn-vocales" data-filtro="vocal">Vocales</button>
+                <button id="btn-todas" data-filtro="todas">Todas</button>
+            </div>
+        </nav>
+    </header>
+
     <section class="galeria">
 
         <!-- BLOQUE 1: A - G -->
@@ -174,7 +175,7 @@
             </div>
         </div>
 
-        <div class="card" data-tipo="consonante">
+        <div class="card" data-tipo="vocal">
             <div class="card-frente">
                 <h2>O/o</h2>
             </div>
@@ -233,7 +234,6 @@
                 <p>Tinto</p>
             </div>
         </div>
-        <div class="card"></div>
 
         <!-- BLOQUE 4: U - Z -->
 
