@@ -12,6 +12,7 @@ header {
     justify-content: space-between;
     align-items: center;
     gap: 30em;
+}
 body{
     display: flex;
     flex-direction: column;
